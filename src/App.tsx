@@ -1,5 +1,11 @@
+import AppShellLayout from "./components/pages/AppShellLayout/AppShellLayout";
+
 function App() {
-  return <>WELCOME TO PILOTEST WEBAPP</>;
+  return (
+    <>
+      <AppShellLayout />
+    </>
+  );
 }
 
 export default App;
